@@ -1,0 +1,13 @@
+[Unit]
+Description=UPS monitor daemon
+After=syslog.target network.target
+
+[Service]
+Type=forking
+ExecStart=/usr/local/bin/upsd
+PIDFile=/var/run/upsd.pid
+
+[Install]
+WantedBy=multi-user.target
+
+

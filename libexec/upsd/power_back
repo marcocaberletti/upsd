@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# This script is executed by upsd if the power comes back after a
+# preceding power outage.
+

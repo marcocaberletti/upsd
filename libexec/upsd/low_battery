@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# This script is executed by upsd if there is a power outage AND the battery
+# charge level is considered to be low. Whenever this happens, you have to
+# expect an abrupt loss of power very soon. It thus usually is the best idea
+# to properly shut down the system here.
+
+# Uncomment the line below to properly shut down the system. Note that upsd
+# must be running as root, otherwise this will not work.
+
+# shutdown -h now

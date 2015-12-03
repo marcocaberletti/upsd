@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# This script is executed by upsd if there is a power outage.
+
+# Note that the system will automatically continue running by using
+# the battery.
